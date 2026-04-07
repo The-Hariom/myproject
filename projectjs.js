@@ -43,7 +43,7 @@ courseSelect.addEventListener('change', function () {
     }
 });
 function showName() {
-
+document.querySelector(".Box").style.display = "block";
     var inputname = document.getElementById("nm").value;
     document.getElementById("name").innerText = inputname;
 
