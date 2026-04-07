@@ -1,0 +1,166 @@
+h2 {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+
+.inputbox {
+    width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 22px;
+    position: relative;
+    gap: 10px;
+
+
+}
+
+
+
+input,
+select {
+    width: 30%;
+
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    padding: 6px;
+
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+    text-indent: 4px;
+}
+
+/* Readonly fields style */
+
+
+button {
+    width: 20%;
+    padding: 1px;
+    height: 30px;
+    background: skyblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40%;
+    transition: 1.5s;
+}
+
+button:hover {
+    background: #0056b3;
+    width: 20.5%;
+    color: white;
+}
+
+#course {
+    width: 40%;
+}
+
+#mob {
+    width: 25%;
+}
+
+/* image satelment */
+
+.box {
+    position: relative;
+    /* container base */
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border: 2px solid black;
+    display: block;
+}
+
+.box p {
+    position: absolute;
+    /* image ke upar lane ke liye */
+
+
+
+    font-size: 18px;
+    color: black;
+}
+
+.name {
+    top: 27.2%;
+    left: 25%;
+}
+
+.father {
+    top: 28.4%;
+    left: 68%;
+}
+
+.mobnum {
+    top: 32.2%;
+    left: 27%;
+}
+
+.add {
+    top: 32.6%;
+    left: 68%;
+}
+
+.cour {
+    top: 45.5%;
+    left: 16%;
+
+
+}
+
+.tfee {
+    top: 45.5%;
+    left: 52%;
+}
+
+.rfee {
+    top: 45.5%;
+    left: 67%;
+}
+
+.amount {
+    top: 45.5%;
+    left: 83%;
+}
+
+.reciptnum {
+    top: 22.5%;
+    left: 27%;
+}
+
+.roll {
+    top: 22%;
+    left: 83%;
+}
+
+.date {
+    top: 22%;
+    left: 50%;
+}
+
+.dur {
+    top: 66%;
+    left: 50%;
+}

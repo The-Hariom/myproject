@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projectcss.css">
+
+</head>
+
+<body>
+    <div class="inputbox">
+
+        <h2> IT Computer Institute Registration Portal</h2>
+        <form id="form">
+            <lable for="roll"> Roll Num:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+
+            <input type="number" name="roll" id="inputroll">
+
+            <lable for="nm">&nbsp;&nbsp;&nbsp; Name :</lable>
+            <input type="text" name="nm" id="nm"><br><br>
+
+            <lable for="fn"> Father's Name :</lable>
+            <input type="text" name="fn" id="fatherinput">
+
+            <lable for="add">&nbsp;&nbsp;&nbsp;Address:</lable>
+            <input type="text" name="add" id="addinput"><br><br>
+
+
+            <label for="course">Select Course:&nbsp;&nbsp;</lable>
+                <select id="course" name="courseinput" required>
+                    <option value="basic">BASIC</option>
+                    <option value="tally">TALLY</option>
+                    <option value="dtp">DTP</option>
+                    <option value="html">HTML</option>
+                    <option value="adca">ADCA</option>
+                </select>
+                <lable for="mob"> &nbsp;&nbsp;&nbsp;Mob:</lable>
+                <input type="text" name="mob" id="mob">
+                <br>
+                <label for="duration">Duration:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                        type="text" id="duration" name="duration"></label>
+
+                <label for="date">&nbsp;&nbsp;&nbsp;Date: <input type="date" id="date" name="date"></label><br><br>
+
+                <label for="fees">Tution Fees: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="fees"
+                        name="fees"></label>
+
+
+                <label for="reg">&nbsp;&nbsp;&nbsp;Reg. Fees: <input type="text" id="reg" name="reg"></label><br><br>
+
+
+                <button type="button" onclick="showName()">Submit</button>
+
+        </form>
+    </div>
+    <!-- input provider  -->
+
+    <div class="box">
+        <img src="it image.jpg" id="img">
+        <p id="name" class="name">name</p>
+        <p id="father" class="father">father</p>
+        <p id="dt" class="date">date</p>
+        <p class="roll" id="roll" id="same">roll 25</p>
+        <p class="reciptnum" id="reciptnum" id="same"> rec25</p>
+        <p class="mobnum" id="mobnum" id="same"> m256</p>
+        <p class="add" id="add"> address</p>
+        <p class="cour" id="cour" id="same"> basic</p>
+        <p class="dur" id="dur" id="same">1 mont</p>
+        <p class="tfee" id="tfee" id="same">t fee</p>
+        <p class="rfee" id="rfee" id="same"> r fee</p>
+        <p class="amount" id="amount">amount</p>
+
+
+    </div>
+    <button type="button" onclick="printPage()" class="hidebtn">Print</button>
+
+
+
+    <script src="projectjs.js"></script>
+</body>
+
+</html>
