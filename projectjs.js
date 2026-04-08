@@ -1,4 +1,4 @@
-document.querySelector(".box").style.display = "block";
+
 
 console.log("hello");
 const inputs = document.querySelectorAll("#form input");
@@ -90,7 +90,8 @@ function showName() {
     var mobile = document.getElementById("mob").value;
     document.getElementById("mobnum").innerText = mobile;
 
-
+document.querySelector(".box").style.display = "block";
+document.querySelector(".hidebtn").style.display = "block";
 
 
 
