@@ -1,3 +1,5 @@
+document.querySelector(".box").style.display = "block";
+
 console.log("hello");
 const inputs = document.querySelectorAll("#form input");
 
