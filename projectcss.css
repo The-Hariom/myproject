@@ -85,6 +85,10 @@ button:hover {
     margin: auto;
     display: none;
 }
+.hidebtn{
+    display: none;
+}
+
 
 .box img {
     width: 100%;
